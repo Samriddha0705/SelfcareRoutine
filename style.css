@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("lotion-cotton-buds-copy-space_23-2148439153.avif");
+    background-size: 1550px 700px;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+h1{
+    color: darkmagenta;
+    background-color: rgb(235, 214, 251);
+    font: bold;
+}
+.container{
+    align-self: center;
+    align-items: center;
+}
+.input-section{
+    height: 40px;
+    gap: 10px;
+    align-self: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+#taskInput{
+    height: 30px;
+    width: 500px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(0,0,0,0.9);
+    align-self: center;
+    font-size: medium;
+}
+#categoryInput{
+    height: 30px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(0,0,0,0.9);
+    align-self: center;
+    background-color: rgb(231, 132, 190);
+    font-size: medium;
+}
+option{
+    background-color: white;
+}
+button{
+    height: 30px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(0,0,0,0.9);
+    align-self: center;
+    background-color: rgb(171, 73, 130);
+    font-size: medium;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(83, 34, 63);
+}
+.filter-section{
+    height: 40px;
+    width: 900px;
+    background-color: rgb(236, 190, 152);
+    gap:10px;
+    align-self: center;
+}
+label{
+    height: 30px;
+    font-size: larger;
+    color:black;
+    align-self: center;
+    font-weight: bold;
+}
+#filterCategory{
+     height: 30px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(0,0,0,0.9);
+    align-self: center;
+    background-color: rgb(238, 152, 48);
+    font-size: medium;
+}
+ul{
+    background-color: rgb(234, 120, 145);
+    padding: 0;
+    list-style: none;
+    width: 900px;
+}
+li{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
