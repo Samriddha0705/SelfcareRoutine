@@ -5,3 +5,11 @@ Tech Stack:
 - CSS
 - JavaScript
 
+git clone https://github.com/Samriddha0705/SelfcareRoutine.git
+
+Possible improvements:
+- Checkboxes
+- Task counter
+- Due dates and highlight overdue tasks
+
+This project is open source and available under the MIT License.
